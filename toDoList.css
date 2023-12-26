@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200vh;
+    background-color: #663399; /* Change to a purple color */
+}
+
+.container {
+    display: flex;
+    min-width: 350px;
+    max-height: 100%;
+    width: 40%;
+    border-radius: 10px; /* Increase border radius for a smoother look */
+    padding: 20px; /* Adjust padding for better spacing */
+    background-color: #f5f5f5; /* Add a light gray background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    flex-direction: column;
+}
+
+#taskInfo:focus {
+    outline: none;
+    border: 2px solid #4CAF50; /* Green border on focus */
+}
+
+#add {
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 600; /* Slightly bolder text */
+    background-color: #FFD700; /* Change to a gold color */
+    cursor: pointer;
+    color: #333; /* Dark text color for better contrast */
+    border: none; /* Remove button border */
+}
+
+.task {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between elements */
+    margin: 10px 0; /* Add some margin between tasks */
+}
+
+.del {
+    color: #FF6347; /* Red color for delete action */
+    cursor: pointer;
+}
+#newTask{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
